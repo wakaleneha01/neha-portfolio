@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neha Wakale | Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f3ff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        header h2 {
+            color: #7045a5;
+        }
+
+        nav a {
+            color: #503078;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero h1 {
+            color: #7045a5;
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            margin: 10px 0 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #7045a5;
+            color: white;
+            padding: 12px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        section {
+            max-width: 850px;
+            margin: 25px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+        }
+
+        section h2 {
+            color: #7045a5;
+            margin-bottom: 15px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #eee5ff;
+            color: #503078;
+            padding: 8px 14px;
+            margin: 5px;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #503078;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 0 5px;
+            }
+
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            section {
+                margin: 18px 12px;
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Neha Wakale</h2>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Hello, I'm Neha Wakale!</h1>
+        <p>BSc IT Student | Aspiring Web Developer</p>
+        <p>I love learning technology and building websites.</p>
+        <a class="button" href="#projects">View My Projects</a>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a BSc IT student passionate about programming
+            and web development. I am learning new skills and
+            building projects to grow in the IT field.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Python</span>
+            <span>DBMS</span>
+            <span>C++</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <h3>Personal Portfolio Website</h3>
+        <p>A website to introduce myself and showcase my skills.</p>
+        <p><em>More projects coming soon!</em></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: wakaleneha01@gmail.com</p>
+        <p>GitHub: https://github.com/wakaleneha01</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Neha Wakale | My Portfolio</p>
+    </footer>
+
+</body>
+</html>
